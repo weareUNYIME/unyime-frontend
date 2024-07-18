@@ -1,0 +1,69 @@
+.LandingPage {
+
+    .Hero,
+    .Process,
+    .CTA {
+        background-color: var(--dark-green);
+        color: var(--neutral-000);
+    }
+
+    .Hero {
+        .hero-images * {
+            margin-right: 10px;
+        }
+    }
+
+    .Testimonials {
+        .Testimonial {
+            width: 500px;
+
+            .quote {
+                font-weight: 400;
+                /* medium */
+                font-style: italic;
+            }
+
+            .reviewer {
+                font-weight: 700;
+            }
+
+            .avatar {
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                background-color: var(--dark-green);
+            }
+        }
+    }
+
+    .FAQ {
+
+        * {
+            width: 500px;
+        }
+    }
+
+    .CTA {
+        
+        * {
+            align-self: center;
+        }
+
+        form .text-section-title {
+            width: 450px;
+            text-align: center;
+        }
+
+        ::placeholder {
+            color: var(--neutral-600);
+            font-size: var(--tiny);
+        }
+        
+        #subscribe-form input[type=text],
+        #subscribe-form input[type=password] {
+            border-radius: 8px;
+            width: 350px;
+        }
+
+    }
+}

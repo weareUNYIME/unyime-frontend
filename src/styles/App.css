@@ -1,0 +1,71 @@
+:root {
+  --dark-green: #002C15;
+  --light-green: #4CAF50;
+  --neon-yellow: #E5FF14;
+  --light-cream: rgba(242, 243, 233, 0.9);
+  --neutral-900: #000000;
+  --neutral-600: #61656E;
+  --neutral-000: #FFFFFF;
+
+  --title: 78px;
+  --section-title: 48px;
+  --subtitle: 24px;
+  --regular: 16px;
+  --small: 14px;
+  --tiny: 12px;
+}
+
+.special-font {
+  font-family: 'Bicyclette', sans-serif;
+}
+
+.Main {
+  min-height: 80vh;
+}
+
+.text-title {
+  font-size: var(--title);
+  font-weight: normal;
+  line-height: 100%;
+}
+
+.text-section-title {
+  font-size: var(--section-title);
+  line-height: 100%;
+}
+
+.text-subtitle {
+  font-size: var(--subtitle);
+}
+
+.text-regular {
+  font-size: var(--regular);
+}
+
+.text-small {
+  font-size: var(--small);
+}
+
+.text-tiny {
+  font-size: var(--tiny);
+}
+
+.text-green {
+  color: var(--dark-green);
+}
+
+.text-yellow {
+  color: var(--neon-yellow);
+}
+
+.text-faded {
+  color: var(--neutral-600);
+}
+
+input {
+  border: none
+}
+
+input:focus {
+  outline: none
+}

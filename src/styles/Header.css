@@ -1,0 +1,25 @@
+.Header {
+    background-color: var(--dark-green);
+
+    * {
+        margin-top: auto;
+        margin-bottom: auto;
+    }    
+
+    .Logo {
+        p {
+            font-size: var(--subtitle);
+            color: var(--neon-yellow);
+            font-weight: 700;
+        }
+
+    }
+
+    a {
+        p.nav-link {
+            color: var(--light-cream);
+        }
+        text-decoration: none;
+    }
+    
+}

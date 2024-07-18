@@ -1,0 +1,27 @@
+import React from "react";
+import '../styles/LandingPage.css'; 
+
+
+import Hero from "./landingPage_sections/Hero";
+import Logos from "./landingPage_sections/Logos";
+import Benefits from "./landingPage_sections/Benefits";
+import Process from "./landingPage_sections/Process";
+import Testimonials from "./landingPage_sections/Testimonials";
+import CTA from "./landingPage_sections/CTA";
+import FAQ from "./landingPage_sections/FAQ";
+
+function LandingPage() {
+    return (
+        <div className="LandingPage">
+            <Hero />
+            {/* <Logos /> */}
+            {/* <Benefits /> */}
+            {/* <Process /> */}
+            <Testimonials />
+            <FAQ />
+            <CTA />
+        </div>
+    );
+}
+
+export default LandingPage;

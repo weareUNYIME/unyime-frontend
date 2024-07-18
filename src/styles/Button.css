@@ -1,0 +1,16 @@
+button.btn {
+    border: 2px solid var(--neon-yellow);
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.ButtonFill {
+    
+    background-color: var(--neon-yellow);
+    color: var(--dark-green);
+}
+
+.ButtonLined {
+    background-color: transparent;
+    color: var(--neon-yellow);
+}
