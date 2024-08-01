@@ -1,9 +1,8 @@
 import React from "react";
-import '../styles/Button.css';
 
 function ButtonLined({ text, spacing }) {
     return (
-        <button type="button" className={"special-font ButtonLined btn " + spacing}>{text}</button>
+        <button type="button" className={"ButtonLined px-4 py-2.5 border-2 border-neon-yellow rounded-xl font-bold text-neon-yellow bg-transparent  " + spacing}>{text}</button>
     );
 }
 

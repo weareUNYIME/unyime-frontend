@@ -18,10 +18,10 @@ const testimonials = [
 
 function Testimonials() {
     return (
-        <div className="Testimonials container my-5">
-            <p className="text-section-title special-font">What our Users Say...</p>
-            <p className="mt-3 mb-5 text-small">We tested our product with a few people here's what they said about Unyime</p>
-            <div className="d-flex justify-content-between">
+        <div className="Testimonials mt-20 mb-10">
+            <p className="text-title font-bicyclette mt-10 leading-none mb-2">What our Users Say...</p>
+            <p className="mb-16 text-regular">We tested our product with a few people - here's what they said about Unyime</p>
+            <div className="flex flex-wrap justify-between gap-10">
                 {
                     testimonials.map((t, key) => {
                         return <Testimonial

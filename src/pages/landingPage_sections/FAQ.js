@@ -22,17 +22,24 @@ const FAQs = [
 
 function FAQ() {
     return (
-        <div className="FAQ container my-5 py-5 d-flex justify-content-between">
-            <div>
-                <p className="text-section-title special-font">Frequently Asked Questions</p>
-                <p className="mt-3 text-small text-faded">Reach out to us <span className="text-green"><strong>unyime@gmail.com</strong></span> if you have more
-                    unanswered questions</p>
+        <div className="FAQ my-40 flex flex-wrap justify-between">
+            <div className="mb-5 lg:mb-0 w-full lg:w-[35%]">
+                <p className="text-section-title font-bicyclette leading-none">Frequently Asked Questions</p>
+                <p className="mt-3 text-small text-neutral-600">
+                    Reach out to us <span className="text-dark-green"><strong>unyime@gmail.com</strong></span> if you have more unanswered questions</p>
             </div>
-            <div className="accordion me-3" id="faq-section">
+
+            <div
+                id="accordion-flush"
+                data-accordion="collapse"
+                data-active-classes="bg-white text-gray-900"
+                data-inactive-classes="text-gray-500"
+                className="w-full lg:w-[60%]"
+            >
                 {
                     FAQs.map((item, key) => <Question
                         key={key}
-                        id={key} 
+                        id={key}
                         q={item.q}
                         a={item.a}
                     />)

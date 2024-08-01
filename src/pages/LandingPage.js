@@ -1,6 +1,4 @@
 import React from "react";
-import '../styles/LandingPage.css'; 
-
 
 import Hero from "./landingPage_sections/Hero";
 import Logos from "./landingPage_sections/Logos";
@@ -12,11 +10,11 @@ import FAQ from "./landingPage_sections/FAQ";
 
 function LandingPage() {
     return (
-        <div className="LandingPage">
+        <div className="LandingPage *:px-24">
             <Hero />
-            {/* <Logos /> */}
-            {/* <Benefits /> */}
-            {/* <Process /> */}
+            <Logos />
+            <Benefits />
+            <Process />
             <Testimonials />
             <FAQ />
             <CTA />
