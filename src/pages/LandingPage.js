@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Hero from "./landingPage_sections/Hero";
 import Logos from "./landingPage_sections/Logos";
@@ -8,7 +8,10 @@ import Testimonials from "./landingPage_sections/Testimonials";
 import CTA from "./landingPage_sections/CTA";
 import FAQ from "./landingPage_sections/FAQ";
 
-function LandingPage() {
+function LandingPage({setOnLanding}) {
+    
+    useEffect (() => setOnLanding(true));
+
     return (
         <div className="LandingPage *:px-24">
             <Hero />

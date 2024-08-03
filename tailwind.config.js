@@ -25,7 +25,10 @@ module.exports = {
         regular: "16px",
         small: "14px",
         tiny: "12px",
-      }
+      },
+      backgroundImage: {
+        "hero-image": "url('/public/assets/images/landing_happy-volunteers.png')"
+      },
     },
   },
   plugins: [],
